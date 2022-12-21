@@ -1,4 +1,5 @@
 {
+  "private": false,
   "name": "ohlight",
   "version": "1.0.0",
   "description": "一个基于 web components 的`跨框架/库（vue、react等）、无框架的高亮划词组件",
@@ -7,6 +8,7 @@
   "homepage": "https://gitee.com/xiaoruil/o-light.git",
   "scripts": {
     "build": "rollup -c ./rollup.config.js",
+    "publish": "npm publish",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
