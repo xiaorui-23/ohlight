@@ -24,7 +24,7 @@ const getStyle = (style: string) => {
     
     for(let key in sv){
 
-        let item = sv[key]
+        let item = sv[key as keyof typeof sv]
 
         s += `${key}:${item};`
     }

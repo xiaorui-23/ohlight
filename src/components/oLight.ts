@@ -43,7 +43,7 @@ class OLight extends HTMLElement {
         this.lightKeywords = keywordsValue
         this.lightStyles = styles
         this.lightBody = content
-        this.lightStable = parseInt(this.getAttributes('stableTime').value || this.lightDefaultStable)
+        this.lightStable = Number((this.getAttributes('stableTime').value || this.lightDefaultStable) as string)
 
 
         node.innerHTML = handle(isEmpty(content?.value || ''), keywordsValue, (styles?.value || ''))
@@ -139,7 +139,7 @@ class OLight extends HTMLElement {
     }
 
     // 获取元素自身属性
-    getAttributes (attName: string) {
+    getAttributes (attName: any) {
         let attributesList : (Params & NamedNodeMap)  = this.attributes
 
         return (attributesList[attName] || {})

@@ -2,10 +2,11 @@
   "name": "ohlight",
   "version": "1.0.0",
   "description": "一个基于 web components 的`跨框架/库（vue、react等）、无框架的高亮划词组件",
-  "main": "index.js",
+  "main": "bin/index.js",
   "type": "module",
   "homepage": "https://gitee.com/xiaoruil/o-light.git",
   "scripts": {
+    "build": "rollup -c ./rollup.config.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -34,5 +35,15 @@
     "> 1%",
     "iOS 7",
     "last 3 iOS versions"
-  ]
+  ],
+  "dependencies": {
+    "@babel/core": "^7.20.5",
+    "rollup": "^3.7.5",
+    "rollup-plugin-babel": "^4.4.0",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-terser": "^7.0.2",
+    "rollup-plugin-typescript2": "^0.34.1",
+    "typescript": "^4.9.4"
+  }
 }
