@@ -1,7 +1,7 @@
 {
   "private": false,
   "name": "ohlight",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "一个基于 web components 的`跨框架/库（vue、react等）、无框架的高亮划词组件",
   "main": "bin/index.js",
   "type": "module",
