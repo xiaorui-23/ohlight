@@ -18,13 +18,13 @@ github: [点击前往](https://github.com/xiaoruil/o-light.git)
 ```javascript
 
 // pnpm 
-pnpm i olight
+pnpm i ohlight
 
 // npm
-pnpm i olight
+pnpm i ohlight
 
 // yarn
-yarn add olight
+yarn add ohlight
 
 ```
 
@@ -35,34 +35,34 @@ yarn add olight
 <o-light></o-light>
 
 <script type="module">
-    import { oLight } from "./src/index.ts"
+    import { oLight } from "ohlight"
 </script>
 
 ```
 
-## 基础使用
+## 1、基础使用
 
 ```javascript
 
 <o-light content="清道夫" keywords="清"></o-light>
 
 <script type="module">
-    import { oLight } from "./src/index.ts"
+    import { oLight } from "ohlight"
 </script>
 
 ```
-## 多个关键词
+## 2、多个关键词
 
 ```javascript
 
 <o-light content="清道夫" keywords="清,夫"></o-light>
 
 <script type="module">
-    import { oLight } from "./src/index.ts"
+    import { oLight } from "ohlight"
 </script>
 
 ```
-## 自定义高亮样式
+## 3、自定义高亮样式
 
 自定义样式需要使用一个序列化`CSSStyleDeclaration`后的对象字符串，详细内容可以看下方的`api`说明。
 
@@ -79,12 +79,12 @@ const style =  JSON.stringify({
 </script>
 
 <script type="module">
-    import { oLight } from "./src/index.ts"
+    import { oLight } from "ohlight"
 </script>
 
 ```
 
-## vue 中使用
+## 4、`vue` 中使用
 
 这里使用的是`vue3`，`vue2`中是差不多的。在`vue`中需要注意的是要过滤掉组件的注册解析。具体过滤方法可以看下面的配置示例。
 
@@ -102,7 +102,7 @@ const style =  JSON.stringify({
 
 
 <script type="module">
-    import { oLight } from "./src/index.ts"
+    import { oLight } from "ohlight"
 </script>
 
 <script setup>
@@ -163,7 +163,15 @@ module.exports = {
 
 ```
 
-## 获取组件实例并操作组件
+## 5、`react` 中使用
+
+```javascript
+import {oLight} from "ohlight"
+
+<o-light content="章三积分快到了时间" keywords="章三"></o-light>
+```
+
+## 6、获取组件实例并操作组件
 
 ```javascript
 
@@ -182,7 +190,7 @@ const load = (e) => {
 </script>
 
 <script type="module">
-    import { oLight } from "./src/index.ts"
+    import { oLight } from "ohlight"
 </script>
 
 ```
@@ -216,3 +224,12 @@ const load = (e) => {
 | adoptedCallback | `Function` | 当自定义元素被移动到新文档时被调用 | - |
 | attributeChangedCallback | `Function` | 当自定义元素的一个属性被增加、移除或更改时被调用。 | - |
 |  |  |  |  |
+
+# 浏览器支持情况
+
+| chrome | edge | firefox | opera | safari |
+|--|--|--|--|--|
+| 53+ | 79+ | 63+ | 40+ | 10+ |
+| | | | | |
+
+
