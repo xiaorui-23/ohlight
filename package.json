@@ -1,0 +1,20 @@
+{
+  "name": "olight",
+  "version": "1.0.0",
+  "description": "一款基于 web components 的跨框架、无框架高亮画词组件",
+  "main": "index.js",
+  "type": "module",
+  "homepage": "",
+  "scripts": {
+    "dev": "vite",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "vue", "react", "画词", "高亮", "无框架", "web components"
+  ],
+  "author": {
+    "name": "Rui Xiao",
+    "email": "3399251596@qq.com"
+  },
+  "license": "ISC"
+}
