@@ -1,20 +1,38 @@
 {
-  "name": "olight",
+  "name": "ohlight",
   "version": "1.0.0",
-  "description": "一款基于 web components 的跨框架、无框架高亮画词组件",
+  "description": "一个基于 web components 的`跨框架/库（vue、react等）、无框架的高亮划词组件",
   "main": "index.js",
   "type": "module",
-  "homepage": "",
+  "homepage": "https://gitee.com/xiaoruil/o-light.git",
   "scripts": {
-    "dev": "vite",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "vue", "react", "画词", "高亮", "无框架", "web components"
+    "vue",
+    "react",
+    "画词",
+    "高亮",
+    "无框架",
+    "web components"
   ],
   "author": {
     "name": "Rui Xiao",
     "email": "3399251596@qq.com"
   },
-  "license": "ISC"
+  "license": "ISC",
+  "files": [
+    "LICENSE.md",
+    "README.md",
+    "package.json",
+    "bin"
+  ],
+  "browserslist": [
+    "defaults",
+    "not ie < 8",
+    "last 2 versions",
+    "> 1%",
+    "iOS 7",
+    "last 3 iOS versions"
+  ]
 }
