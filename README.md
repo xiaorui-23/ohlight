@@ -21,7 +21,7 @@ github: [点击前往](https://github.com/xiaoruil/o-light.git)
 pnpm i ohlight
 
 // npm
-pnpm i ohlight
+npm i ohlight
 
 // yarn
 yarn add ohlight
