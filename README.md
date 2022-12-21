@@ -210,7 +210,6 @@ const load = (e) => {
 | keywords | `string` | 关键词字符串，多个关键词使用`'','`隔开 | - |
 | styles | `string`  | 高亮关键字样式，仅支持序列化后的`CSSStyleDeclaration`对象；`注：涉及到驼峰写法的需要改写成 - 连接`；`如：fontStyle 需要写成 font-style ` | - |
 | stableTime | `string` ｜ `number`  | 防抖时间，单位：(ms) | 200 |
-|  |  |  |  |
 
 ## 事件
 
@@ -223,13 +222,11 @@ const load = (e) => {
 | disconnectedCallback | `Function` | 当自定义元素与文档 DOM 断开连接时被调用 | - |
 | adoptedCallback | `Function` | 当自定义元素被移动到新文档时被调用 | - |
 | attributeChangedCallback | `Function` | 当自定义元素的一个属性被增加、移除或更改时被调用。 | - |
-|  |  |  |  |
 
 # 浏览器支持情况
 
 | chrome | edge | firefox | opera | safari |
 |--|--|--|--|--|
 | 53+ | 79+ | 63+ | 40+ | 10+ |
-| | | | | |
 
 

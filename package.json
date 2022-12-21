@@ -2,7 +2,7 @@
   "private": false,
   "name": "ohlight",
   "version": "1.0.1",
-  "description": "一个基于 web components 的`跨框架/库（vue、react等）、无框架的高亮划词组件",
+  "description": "一个基于 web components 的跨框架/库（vue、react等）、无框架的高亮划词组件",
   "main": "bin/index.js",
   "type": "module",
   "homepage": "https://gitee.com/xiaoruil/o-light.git",
@@ -14,7 +14,7 @@
   "keywords": [
     "vue",
     "react",
-    "画词",
+    "划词",
     "高亮",
     "无框架",
     "web components"
